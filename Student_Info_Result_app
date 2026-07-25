@@ -1,3 +1,3 @@
 import streamlit as streamlit
 import pandas as pd
-st.title("")
+st.title("Student Resulta")
