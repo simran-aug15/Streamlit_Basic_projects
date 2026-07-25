@@ -25,7 +25,7 @@ st.markdown("""
         100% {transform: rotate(720deg);}  # 360+360 degree rotation of dice } 
 .spin 
 { 
-   animation: spin 0.5s linear infinite; # speed of the spin in linear means constant form/speed 
+   animation: spin 0.5s linear infinite;   # speed of the spin in linear means constant form/speed 
 } 
 </style> """,unsafe_allow_html=True) # This is used to forcefull allow css as streamlit doesnot allow usage of html,css,javascript
 
