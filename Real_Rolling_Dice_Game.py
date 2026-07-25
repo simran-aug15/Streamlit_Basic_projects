@@ -17,4 +17,4 @@ dice_images={
 }
 
  # Place holder
- dice_placeholder=st.empty()
+dice_placeholder=st.empty()
