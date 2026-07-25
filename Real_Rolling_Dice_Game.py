@@ -20,9 +20,9 @@ dice_placeholder = st.empty()
 # CSS Animation
 st.markdown("""
 <style>
-@keyframes spin { # This is used when we need to add animation and editing 
-        0% {transform: rotate(0deg);} #0 degree rotation of dice
-        100% {transform: rotate(720deg);} #360+360 degree rotation of dice } 
+@keyframes spin {                          # This is used when we need to add animation and editing 
+        0% {transform: rotate(0deg);}      # 0 degree rotation of dice
+        100% {transform: rotate(720deg);}  # 360+360 degree rotation of dice } 
 .spin 
 { 
    animation: spin 0.5s linear infinite; # speed of the spin in linear means constant form/speed 
