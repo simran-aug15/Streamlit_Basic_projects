@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 st.title("Student Result app")
 name=st.text_input("Enter your Name: ")
 marks=st.number_input("Enter your Marks: ")
