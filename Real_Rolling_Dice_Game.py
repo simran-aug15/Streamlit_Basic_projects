@@ -14,4 +14,6 @@ dice_images={
     4: "https://game-icons.net/tags/dice.html",
     5: "https://www.reddit.com/r/rpg/comments/8nt7n3/i_was_annoyed_that_there_were_no_android_dice/",
     6: "https://game-icons.net/tags/dice.html"
+}
+
  # Place holder
