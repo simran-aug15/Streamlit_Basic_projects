@@ -15,6 +15,5 @@ if st.button("calculate"):
             result = num1 / num2
         else:
             result = "Cannot divide by zero"
-    else:
-        st.write("Wrong input")    
+       
 
