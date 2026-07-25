@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-st.title("🎲 Real Rolling Dice")
+st.title(" Real Rolling Dice")
 
 # Direct image URLs
 dice_images = {
