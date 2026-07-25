@@ -27,7 +27,7 @@ st.markdown("""
 { 
    animation: spin 0.5s linear infinite;   # speed of the spin in linear means constant form/speed 
 } 
-</style> """,unsafe_allow_html=True) # This is used to forcefull allow css as streamlit doesnot allow usage of html,css,javascript
+</style> """,unsafe_allow_html=True)       # This is used to forcefull allow css as streamlit doesnot allow usage of html,css,javascript
 
 # Roll Dice Button
 if st.button(" Roll Dice"):
