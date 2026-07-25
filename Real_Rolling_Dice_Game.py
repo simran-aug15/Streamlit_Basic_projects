@@ -18,3 +18,13 @@ dice_images={
 
  # Place holder
 dice_placeholder=st.empty()
+
+# CSS Animation
+st.markdown("""
+<style>
+@keyframes spin  {
+      0% {transform: rotate(0deg);}    #0 degree rotation of dice
+    100% {transform: rotate(720deg);} #360+360 degree rotation of dice
+    }
+
+""")
