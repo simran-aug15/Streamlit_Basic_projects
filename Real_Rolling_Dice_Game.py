@@ -33,7 +33,7 @@ st.markdown("""
 if st.button(" Roll Dice"):
 
     # Rolling animation
-    for _ in range(10):
+    for i in range(10):
         num = random.randint(1, 6)
         dice_placeholder.markdown(
             f"<img src='{dice_images[num]}' width='120' class='spin'>",
