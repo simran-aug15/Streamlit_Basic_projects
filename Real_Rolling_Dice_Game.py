@@ -32,3 +32,15 @@ st.markdown("""
 </style> 
 
 """,unsafe_allow_html=True)  # This is used to forcefull allow css as streamlit doesnot allow usage of html,css,javascript 
+
+if st.button("roll Dice"):
+
+
+    #Animation
+    for i in range(8):
+        num=random.randint(1,6)
+        dice_placeholder.markdown(
+            f"<img src='{dice_images[num]}' width="120" class='spin'>",
+            unsafe_allow_html=True
+        )
+        time.sleep(0.1)
