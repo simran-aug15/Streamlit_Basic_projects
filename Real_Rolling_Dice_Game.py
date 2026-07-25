@@ -30,7 +30,7 @@ st.markdown("""
 </style> """,unsafe_allow_html=True) # This is used to forcefull allow css as streamlit doesnot allow usage of html,css,javascript
 
 # Roll Dice Button
-if st.button("🎲 Roll Dice"):
+if st.button(" Roll Dice"):
 
     # Rolling animation
     for _ in range(10):
