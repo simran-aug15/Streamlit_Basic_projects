@@ -5,4 +5,6 @@ name=st.text_input("Enter your Name: ")
 marks=st.number_input("Enter your Marks: ")
 if st.button("Show Result"):
     if marks > 50:
-        st.success("you passed")
+        st.success(f"{name} Passed ")
+    else:
+        st.error(f"{name} Failed ")    
