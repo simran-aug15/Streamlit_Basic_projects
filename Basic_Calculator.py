@@ -10,8 +10,11 @@ if st.button("calculate"):
         st.write(num1-num2)
     elif operation=="Multiplication":
         st.write(num1*num2)
-    elif operation=="Division":
-        st.write(num1/num2)
+    elif operation == "Division":
+        if num2 != 0:
+            result = num1 / num2
+        else:
+            result = "Cannot divide by zero"
     else:
         st.write("Wrong input")    
 
