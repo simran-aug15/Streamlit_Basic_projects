@@ -13,8 +13,8 @@ if st.button("Calculate"):
         st.write(num1 * num2)
     elif operation == "Division":
         if num2 != 0:
-            result = num1 / num2
+            st.write(num1 / num2)
         else:
-            result = "Cannot divide by zero"
+            st.write("Cannot divide by zero")
        
 
