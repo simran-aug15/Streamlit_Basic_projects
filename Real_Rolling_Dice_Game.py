@@ -40,7 +40,11 @@ if st.button("roll Dice"):
     for i in range(8):
         num=random.randint(1,6)
         dice_placeholder.markdown(
-            f"<img src='{dice_images[num]}' width="120" class='spin'>",
+            f"<img src='{dice_images[num]}' width='120' class='spin'>",
             unsafe_allow_html=True
         )
         time.sleep(0.1)
+
+    #Final result
+    final=random.randint(1,6)
+    dice_placeholder.image(dice_images[final],width=120)    
