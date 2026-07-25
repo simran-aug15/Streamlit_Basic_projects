@@ -44,4 +44,4 @@ if st.button("🎲 Roll Dice"):
     # Final result
     final = random.randint(1, 6)
     dice_placeholder.image(dice_images[final], width=120)
-    st.success(f"🎉 You got: {final}")
+    st.success(f" You got: {final}")
