@@ -12,4 +12,6 @@ if st.button("calculate"):
         st.write(num1*num2)
     elif operation=="Division":
         st.write(num1/num2)
-            
+    else:
+        st.write("Wrong input")    
+
